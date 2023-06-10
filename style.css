@@ -1,0 +1,226 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* backgroung for introduction */
+
+.intro{
+    background-image: url("/images/bgpizza.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+ a:hover {
+    color: yellow;
+  }
+
+.link{
+   font-weight: bold;
+    color: rgb(238, 142, 17);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.our-name{
+    color: white;
+    text-align: right; 
+    padding-right: 200px;
+   
+}
+
+.name{
+  font-size: 100px;
+  font-family: 'Inspiration', cursive;
+}
+
+.pizza{
+    font-style: italic;
+    text-shadow: 4px 4px white;
+    font-size: 150px;
+    color: red;
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+}
+/* #pizza1{
+    width: 200px;
+    height: 150px;
+} */
+h4{
+    margin-top: 30px;
+}
+
+.links{
+    text-align: right;
+    padding: 10px;
+}
+
+
+.dishes{
+    text-align: center;
+    padding-top: 120px;
+}
+.menus1 img{
+    height: 50%;
+}
+.border{
+    border: 2px solid rgb(12, 8, 8);
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 100px;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(241, 243, 233);
+    box-shadow: 5px 5px 25px 25px #888888;
+}
+
+h5{
+    background-color: red;
+    width: fit-content;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 30px;
+}
+
+i{
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+}
+
+i:hover {
+    color: rgb(173, 38, 78);
+  }
+
+.lastbg{
+    background-image: url("/images/lastpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+/* for all buttons */
+
+button{
+    background-color: rgb(255, 102, 0);
+    margin-top: 20px;
+    padding: 6px;
+    border: 0;
+    color: white;
+}
+button:hover{
+    background-color: red;
+}
+
+.about{
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #888888 ;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.contact{
+    margin-top: 30px;
+    font-size: 30px;
+    word-spacing: 30px;
+}
+.contact i{
+    word-spacing: 40px;
+    color: rgb(20, 3, 77);
+}
+
+.contact i:hover {
+    color: rgb(255, 123, 0);
+  }
+
+  .contact .fa-youtube{
+      color: red;
+  }
+
+  .contact .fa-twitter{
+    color: rgb(0, 183, 255);
+}
+.contact .fa-facebook{
+    color: rgb(57, 169, 235);
+}
+.contact .fa-instagram{
+    color: rgb(167, 41, 83);
+}
+.contact .fa-linkedin{
+    color: blue;
+}
+
+select{
+    font-size: large;
+}
+#name{
+    width: fit-content;
+    margin-left: 570px;
+}
+
+.yes, #form2{
+   display: none;
+}
+
+.yes{
+    height: 150px;
+}
+
+#place{
+    width: 220px;
+    margin-left: 600px;
+}
+#name{
+    margin-left: 590px;
+}
+#phone{
+    margin-left: 600px;
+    width: 220px;
+}
+
+.pad{
+    padding: 0px;
+    color: red;
+}
+
+.change{
+    background-color: rgb(30, 112, 145);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.make{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+select{
+    padding: 10px;
+    background-color: coral;
+    border-radius: 20px;
+}
+ .note{
+     color: red;
+     font-size: 15px;
+ }
+ .col-sm-4 img{
+    overflow: hidden;
+    width: 100%;
+ }
+ .col-md-4 img{
+    object-fit: contain;
+    width: 100%;
+    
+ }
+
